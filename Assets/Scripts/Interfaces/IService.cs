@@ -1,8 +1,6 @@
-using UnityEngine;
-
 public interface IService
 {
-    IService Initialize();
+    public IService Initialize();
 
-    IService Begin();
+    public IService Begin();
 }
