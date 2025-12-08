@@ -10,27 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
-  m_Name: Systems
+  m_Name: Scenes
   m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
-  m_GroupName: Systems
-  m_GUID: ec23098ec5844d0499a2b1586740ca08
+  m_GroupName: Scenes
+  m_GUID: 93bc6d323f34d2a4e82c4962557a0cb8
   m_SerializeEntries:
-  - m_GUID: cc57f94e2ddefa141ab2e32705cdc9ef
-    m_Address: MenuSystem
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: d1a22949c87fdd14bae0b7a9995bb941
-    m_Address: InputSystem
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: f17d935adb29b73449905e17b87bd534
-    m_Address: LevelSystem
+  - m_GUID: 99c9720ab356a0642a771bea13969a05
+    m_Address: Menu
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: a7d13058096385a42852093b63fedcb9, type: 2}
   m_SchemaSet:
-    m_Schemas: []
+    m_Schemas:
+    - {fileID: 11400000, guid: 730f38f5a4ff85241b552bf1aabd3947, type: 2}
+    - {fileID: 11400000, guid: 9efa4e01f4569a1478025805822a2c0b, type: 2}
