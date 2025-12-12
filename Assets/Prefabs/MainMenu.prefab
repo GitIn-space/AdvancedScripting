@@ -344,6 +344,7 @@ GameObject:
   - component: {fileID: 1318266056087313342}
   - component: {fileID: 6103314127468922430}
   - component: {fileID: 8193488453831928885}
+  - component: {fileID: 7602143064442259630}
   m_Layer: 5
   m_Name: MainMenu
   m_TagString: Untagged
@@ -437,6 +438,21 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &7602143064442259630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4937153966275324256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c37ff03cdf785345a39c3f865805316, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonRef
+  buttons:
+  - {fileID: 3455177034199150521}
+  - {fileID: 3163126626469824066}
 --- !u!1 &8017208798757186036
 GameObject:
   m_ObjectHideFlags: 0

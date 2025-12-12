@@ -3,17 +3,26 @@ using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviour, IService
 {
-    [SerializeField] Scene menuScene;
+    [SerializeField] ISerializationCallbackReceiver menuScene;
+
+    public enum Levels
+    {
+        MainMenu,
+        Level1,
+    }
 
     public IService Initialize()
     {
-        SceneManager.LoadScene(menuScene.name, LoadSceneMode.Additive);
-
         return this;
     }
 
     public IService Begin()
     {
         return this;
+    }
+
+    public void ChangeLevel(LevelManager.Levels level, LoadSceneMode mode = LoadSceneMode.Additive)
+    {
+        SceneManager.LoadScene((int)level, mode);
     }
 }

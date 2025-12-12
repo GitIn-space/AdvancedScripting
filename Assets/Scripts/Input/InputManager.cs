@@ -11,7 +11,7 @@ public class InputManager : MonoBehaviour, IService
 
     public IService Initialize()
     {
-#if UNITY_STANDALONE
+#if UNITY_STANDALONE || UNITY_EDITOR
         GetComponent<PlayerInput>().SwitchCurrentActionMap("Standalone");
 #elif UNITY_PS4 || UNITY_PS3 || UNITY_XBOX360 || UNITY_XBOXONE
         GetComponent<PlayerInput>().SwitchCurrentActionMap("Console");
